@@ -1,6 +1,5 @@
 import React from 'react'
 import Data from './data'
-
 function Cybersecurity() {
   return (
     <div className='catalogBody'>
@@ -10,7 +9,7 @@ function Cybersecurity() {
                 return(
                     item.category === 'cyber security'?
                     <div className='card' key={item.id}>
-                        <img className='preview' src={item.courseimg} alt="" />
+                        <img className='preview' src= {item.courseimg} alt="" />
                         <div className='details'>
                         <p>{item.name}</p>
                         </div>
