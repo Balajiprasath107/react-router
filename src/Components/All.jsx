@@ -9,7 +9,7 @@ function AllCourses() {
                 Data.map((item)=>{
                     return(
                         <div className='card' key={item.id}>
-                            <img className='preview' src={item.courseimg} alt="" />
+                            <img className='preview' src={item.courseimg} alt="" loading='lazy' />
                             <div className='details'>
                             <p>{item.name}</p>
                             </div>

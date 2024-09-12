@@ -10,7 +10,7 @@ function DataScience() {
                     return(
                         item.category === 'Data science'?
                         <div className='card' key={item.id}>
-                            <img className='preview' src={item.courseimg} alt="" />
+                            <img className='preview' src={item.courseimg} alt="" loading='lazy' />
                             <div className='details'>
                             <h3>{item.name}</h3>
                             </div>
