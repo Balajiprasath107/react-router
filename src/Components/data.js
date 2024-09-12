@@ -1,39 +1,38 @@
 
-
 const Data = [
     {
         id: '1',
-        courseimg: "https://www.e-spincorp.com/wp-content/uploads/2018/02/deeplearning-security.png",
+        courseimg: "/img/deeplearning-security.png",
         name : " Cybersecurity Vs Ethical Hacking: Top 10 Differences ",
         category : "cyber security",
     },
     {
         id: '2',
-        courseimg: "https://www.e-spincorp.com/wp-content/uploads/2012/07/Penetration-Testing-Services.jpg",
+        courseimg: "/img/Penetration-Testing-Services.jpg",
         name : " 8 Different Types of Cybersecurity and Threats Involved",
         category : "cyber security",
     },
     {
         id: '3',
-        courseimg: "https://www.guvi.in/blog/wp-content/uploads/2022/06/8bfd01c18be1b5059bc0d7770d9dabf1.gif",
+        courseimg: "/img/img3.gif",
         name : "Is coding required for cybersecurity? If yes, how crucial is coding for cybersecurity?",
         category : "cyber security",
     },
     {
         id: '4',
-        courseimg: "https://www.guvi.in/blog/wp-content/uploads/2022/12/cybersecuity-.gif",
+        courseimg: "/img/cybersecuity.gif",
         name : "Security breach prevention techniques",
         category : "cyber security",
     },
     {
         id: '5',
-        courseimg: "https://www.e-spincorp.com/wp-content/uploads/2020/07/cyber-security-banner.jpg",
+        courseimg: "/img/cyber-security-banner.jpg",
         name : "Most common Cybersecurity Frameworks and types",
         category : "cyber security",
     },
     {
         id: '6',
-        courseimg: "https://www.e-spincorp.com/wp-content/uploads/2020/09/robotic-process-automation.jpg",
+        courseimg: "/img/robotic-process-automation.jpg",
         name : "The GenAI Revolution: How Text Commands and Machine-to-Machine Communication Will Reshape the Future",
         category : "AI",
     },
